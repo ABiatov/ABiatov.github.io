@@ -1,0 +1,76 @@
+ol, ul {
+	list-style: none;
+}
+
+/* Шапка сайта */
+
+#header {
+	position: absolute;
+	top: 20px;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+	width: 100%;
+	padding: 20px 0;
+	background: #333333;
+}
+#header.default {
+	position: fixed;
+	top: 0;
+	background: #fefefe;
+	-webkit-box-shadow: 0 2px 2px #444;
+	   -moz-box-shadow: 0 2px 2px #444;
+		-ms-box-shadow: 0 2px 2px #444;
+		 -o-box-shadow: 0 2px 2px #444;
+			box-shadow: 0 2px 2px #444;
+}
+
+/* Лого */
+.logo {
+	float: left;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+.logo a {
+	text-transform: uppercase;
+	font: 14px Times, sans-serif;
+	color: #fff;
+}
+#header.default .logo a {color: #222;}
+
+.logo a:hover,
+#header.default .logo a:hover {color: #f0c01b;}
+/* Меню в шапке */
+.nav {
+	float: right;
+	padding-top: 5px;
+	margin-right: 20px;
+}
+.nav li {
+	float: left;
+	margin-right: 35px;
+}
+.nav li:last-child {margin-right: 0;}
+.nav a {
+	text-transform: uppercase;
+	font: 14px Arial, sans-serif;
+	color: #fff;
+}
+#header.default .nav a {color: #222;}
+
+.nav a:hover,
+#header.default .nav a:hover {color: #f0c01b;}
+
+/* Секция HOME */
+#home {
+/*	height: 20px;
+	background: #000 url(../img/section-top-bg.jpg) no-repeat center;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover; */
+}
+
+#home, #projects, #web-maps, #blog, #contact {
+	padding-top: 100px;
+}

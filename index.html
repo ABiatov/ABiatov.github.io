@@ -4,139 +4,93 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     
     <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no">
-<<<<<<< HEAD
-    <title>Protected area of Amur ecoregion</title>
+<!--     <base href="https://ABiatov.github.io/index.html">  -->
+    <title>Biatov Anton (personal page)</title>
 
-    <link rel="stylesheet" href="https://js.arcgis.com/3.15/esri/css/esri.css">
+
+    <link rel="stylesheet" type="text/css" href="css/symbol.css">
+    <link rel="stylesheet" href="css/style-header.css" />
+    <link rel="stylesheet" href="css/style-footer.css" />
+    <!--  Библеотека jquery -->
+    <script type="text/javascript" src="js/jquery.1.7.1.min.js"></script>
+    <script type="text/javascript">
+    	$(document).ready(function(){
+    		// Фикмированная шапка при скролле
+    		$("#header").removeClass("default");
+    		$(window).scroll(function(){
+    			if ($(this).scrollTop() > 20) {
+    				$("#header").addClass("default").fadeIn('fast');
+    			} else {
+    				$("#header").removeClass("default").fadeIn('fast');
+    			};
+    		});
+    	});
+	</script>
   </head>
-  <body>
-This is a demo page
-=======
-    <title>Feature Layer - display results as an InfoWindow onHover</title>
 
-    <link rel="stylesheet" href="https://js.arcgis.com/3.15/dijit/themes/tundra/tundra.css">
-    <link rel="stylesheet" href="https://js.arcgis.com/3.15/esri/css/esri.css">
-    <style>
-      html, body, #mapDiv {
-        padding:0;
-        margin:0;
-        height:100%;
-      }
-      #mapDiv {
-        position: relative;
-      }
-      #info {
-        background: #fff;
-        box-shadow: 0 0 5px #888;
-        left: 1em;
-        padding: 0.5em;
-        position: absolute;
-        top: 1em;
-        z-index: 40;
-      }
-    </style>
+<!-- Начало работы над телом страницы -->
+<body>
+    <div id="wrapper">
+	<section class="header-content">	
+		<div id="header" class="clearfix">
+			<div class="container">
+				<div class="logo"><a href="#"><h1>Anton Biatov (personal page)</h1></a></div>
+				<ul class="nav">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#web-maps">Web-maps</a></li>
+					<li><a href="#blog">Blog</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	    <section class="main-content">
+		<div id="home" name="home">
+				<p><b>Hi! </b></p>
+				<p>I am Anton Biatov - biologist, naturalist and GIS-specialist from Ukraine. </p>
+				<p>I like to help biologists and environmentalists to solve their GIS tasks.</p>
+		</div>
+		<div id="projects" mame="projects">
+			<h2>Projects</h2>
+			<h3>Conservation and education projects:</h3>
+			<p>I am one of the organizers of a series of workshops for the environmentalists and biologists <a target="_blank" title="Web-site - GIS and Protected areas (pzf.gis.kh.ua)" href="http://pzf.gis.kh.ua/">"GIS for the Protected areas"</a></p>
 
-    <script src="https://js.arcgis.com/3.15/"></script>
-    <script>
-      var map, dialog;
-      require([
-        "esri/map", "esri/layers/FeatureLayer",
-        "esri/symbols/SimpleFillSymbol", "esri/symbols/SimpleLineSymbol", 
-        "esri/renderers/SimpleRenderer", "esri/graphic", "esri/lang",
-        "esri/Color", "dojo/number", "dojo/dom-style", 
-        "dijit/TooltipDialog", "dijit/popup", "dojo/domReady!"
-      ], function(
-        Map, FeatureLayer,
-        SimpleFillSymbol, SimpleLineSymbol,
-        SimpleRenderer, Graphic, esriLang,
-        Color, number, domStyle, 
-        TooltipDialog, dijitPopup
-      ) {
-        map = new Map("mapDiv", {
-          basemap: "streets",
-          center: [-80.94, 33.646],
-          zoom: 8,
-          slider: false
-        });
-        
-        var southCarolinaCounties = new FeatureLayer("http://sampleserver1.arcgisonline.com/ArcGIS/rest/services/Demographics/ESRI_Census_USA/MapServer/3", {
-          mode: FeatureLayer.MODE_SNAPSHOT,
-          outFields: ["NAME", "POP2000", "POP2007", "POP00_SQMI", "POP07_SQMI"]
-        });
-        southCarolinaCounties.setDefinitionExpression("STATE_NAME = 'South Carolina'");
+		</div>
+		<div id="web-maps" mame="web-maps">	
+				<h2>Web-maps<h2/>
+				<div class="button-container">
+					<section class="button-content" title="Web-map of Slobozhanskiy national nature park">
+						<a target="_blank" href="http://abiatov.github.io/NPP_Slobozhanskiy_map/"><img class="preview" src="images/btn_npp_slobozhanskiy.png" alt="Map of Slobozhanskiy national park" ><br>
+						<h3>Web-map of Slobozhanskiy national nature park</h3></a>
+					</section>
+					<section class="button-content" title="3D-models of the sea-bottom near the Ukrainian Antarctic Station «Academic Vernadsky»">
+						<a target="_blank" href="http://abiatov.github.io/Antarctic_qgis2treejs/"><img class="preview" src="images/btn_Vernadsky_sea_bottom.png" alt="3D-models of the sea-bottom near the Ukrainian Antarctic Station «Academic Vernadsky»" ><br>
+			<h3>The sea-bottom near the Ukrainian Antarctic Station...</h3></a>
+					</section>
+				</div>
+			</div>
+		<div id="blog" mame="blog">
+			<h2>My blog</h2>
+			 
+				<section class="blog-preview" title="Blog GIS-naturalist">		
+	<a target="_blank" href="https://gis-naturalist.blogspot.com/"><img class="imgblogpreview" src="images/my-blog.png" alt="blog GIS-naturalist" ></a><br>
+				</section>
+			
+		</div><br>
+		<div id="contact" mame="contact">
+			<h2>My contact</h2>
+<address>
+				  <p>Facebook: <a target="_blank" href="https://www.facebook.com/biatovanton">Anton Biatov</a></p>
+				  <p>E-mail: <a href="mailto:anton.biatov@gmail.com?subject=Вопрос c персональной страницы: ">anton.biatov@gmail.com</a></p>
 
-        var symbol = new SimpleFillSymbol(
-          SimpleFillSymbol.STYLE_SOLID, 
-          new SimpleLineSymbol(
-            SimpleLineSymbol.STYLE_SOLID, 
-            new Color([255,255,255,0.35]), 
-            1
-          ),
-          new Color([125,125,125,0.35])
-        );
-        southCarolinaCounties.setRenderer(new SimpleRenderer(symbol));
-        map.addLayer(southCarolinaCounties);
-
-        map.infoWindow.resize(245,125);
-        
-        dialog = new TooltipDialog({
-          id: "tooltipDialog",
-          style: "position: absolute; width: 250px; font: normal normal normal 10pt Helvetica;z-index:100"
-        });
-        dialog.startup();
-        
-        var highlightSymbol = new SimpleFillSymbol(
-          SimpleFillSymbol.STYLE_SOLID, 
-          new SimpleLineSymbol(
-            SimpleLineSymbol.STYLE_SOLID, 
-            new Color([255,0,0]), 3
-          ), 
-          new Color([125,125,125,0.35])
-        );
-
-        //close the dialog when the mouse leaves the highlight graphic
-        map.on("load", function(){
-          map.graphics.enableMouseEvents();
-          map.graphics.on("mouse-out", closeDialog);
-          
-        });
-                
-        //listen for when the onMouseOver event fires on the countiesGraphicsLayer
-        //when fired, create a new graphic with the geometry from the event.graphic and add it to the maps graphics layer
-        southCarolinaCounties.on("mouse-over", function(evt){
-          var t = "<b>${NAME}</b><hr><b>2000 Population: </b>${POP2000:NumberFormat}<br>"
-            + "<b>2000 Population per Sq. Mi.: </b>${POP00_SQMI:NumberFormat}<br>"
-            + "<b>2007 Population: </b>${POP2007:NumberFormat}<br>"
-            + "<b>2007 Population per Sq. Mi.: </b>${POP07_SQMI:NumberFormat}";
-  
-          var content = esriLang.substitute(evt.graphic.attributes,t);
-          var highlightGraphic = new Graphic(evt.graphic.geometry,highlightSymbol);
-          map.graphics.add(highlightGraphic);
-          
-          dialog.setContent(content);
-
-          domStyle.set(dialog.domNode, "opacity", 0.85);
-          dijitPopup.open({
-            popup: dialog, 
-            x: evt.pageX,
-            y: evt.pageY
-          });
-        });
-    
-        function closeDialog() {
-          map.graphics.clear();
-          dijitPopup.close(dialog);
-        }
-
-      });
-    </script>
-  </head>
-  <body class="tundra">
-    <div id="mapDiv">
-      <div id="info">
-        Hover over a county in South Carolina to get more information.
-      </div>
-    </div>
->>>>>>> 986dee395edf0f058bee94fe8232e07b872a9c86
-  </body>
+</address>
+<br><br><br><br>
+		</div>
+	    </section>
+   </div>
+<footer>
+	<p><small>© Anton Biatov, 2016</small></p>
+</footer>
+</body>
 </html>
