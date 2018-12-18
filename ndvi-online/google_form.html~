@@ -1,0 +1,38 @@
+<div>
+<script type="text/javascript">var submitted=false;</script>
+ <iframe id="hidden_iframe_3" name="hidden_iframe_3" onload="if(submitted)
+{window.location='https://gis-naturalist.blogspot.com/p/request-accepted.html';}" style="display: none;"></iframe>
+<form action="https://docs.google.com/forms/d/e/JERIUEIDEKJDKDKDKDKIDEIKEKDEKDKDSKSDISDK/formResponse" method="post" onsubmit="submitted=true;" style="margin: 0;" target="hidden_iframe_3">
+<div style="box-sizing: border-box; margin-bottom: 15px;">
+<input aria-describedby="i.desc.521444634 i.err.521444634" aria-label="Ваше имя" autocomplete="off" class="quantumWizTextinputPaperinputInput exportInput" data-initial-dir="auto" data-initial-value="" dir="auto" name="entry.842444369" placeholder=" Ваше имя" required="" style="height: 30px; width: 90%;" tabindex="0" type="text" value="" />
+  </div>
+<div style="box-sizing: border-box; margin-bottom: 15px;">
+<input aria-describedby="i.desc.944443420 i.err.946444420" aria-label="Ваш телефон" autocomplete="off" class="quantumWizTextinputPaperinputInput exportInput" data-initial-dir="auto" data-initial-value="" dir="auto" name="entry.1204442446" placeholder=" Ваш телефон / WhatsApp / Viber / Telegram" required="" style="height: 30px; width: 90%;" tabindex="0" type="text" value="" /> 
+  </div>
+<div style="box-sizing: border-box; margin-bottom: 15px;">
+<input aria-describedby="i.desc.245444020 i.err.245444020" aria-label="Ваш e-mail" autocomplete="off" class="quantumWizTextinputPaperinputInput exportInput" data-initial-dir="auto" data-initial-value="" dir="auto" name="entry.2034443828" placeholder=" Ваш e-mail" required="" style="height: 30px; width: 90%;" tabindex="0" type="email" value="" /> 
+  </div>
+<input name="fvv" type="hidden" value="1" />
+        <input name="draftResponse" type="hidden" value="[null,null,&quot;-840444444335403963&quot;]
+" />
+        <input name="pageHistory" type="hidden" value="0" />
+        <input name="fbzx" type="hidden" value="-840444422335403963" />
+ <br />
+<div>
+<style>
+#order-submit {
+  background-color: #e64a59;
+  text-decoration: none;
+  }  
+#order-submit:hover {
+  background-color: #e65f59;
+  text-decoration: none;
+  } 
+</style>
+<center>
+<input class="btn btn-warning jfk-button jfk-button-action " id="order-submit" name="submit" style="border-radius: 0.4rem; border: 1px solid #808080; color: white; font-weight: bolder; height: 35px; width: 70%;" type="submit" value="ЗАПИСАТЬСЯ НА КУРС" /></center>
+</div>
+<center>
+<small><small>*&nbsp;Ваши данные не будут переданы третьим лицам</small></small></center>
+</form>
+</div>

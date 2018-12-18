@@ -1,0 +1,18 @@
+
+
+/* Футер сайта */
+
+footer {
+/*	position: absolute;   */
+	top: 20px;
+	left: 0;
+	right: 0;
+/*	z-index: 9999; */
+	width: 100%;
+	padding: 20px 0;
+	background: #c0c0c0;
+}
+
+footer p {text-align:center;
+	color: #222;
+}

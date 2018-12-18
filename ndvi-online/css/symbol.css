@@ -1,10 +1,10 @@
 /* комментарий */
 body {
-	width:90%;
-	max-width:1080px;
+/*	width:90%; 
+	max-width:1080px; */
 	margin-left:auto;
 	margin-right:auto;
-	background: #CCCCCC;
+	/* background: #CCCCCC; */
 	}
 * {
 	margin: 0;
@@ -18,12 +18,17 @@ body {
 wrapper {
 	
 	}
-section.main-content  {background: #cccccc;
+	
+section.main-content  {
+	/*background: #cccccc; */
 	}
+	/*
 .main-content h1 {
 	color :  #050027;
+   font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif; 
 	font-size : 25pt;
 	text-align:center;
+	padding:1em 0.1em 0.1em;
 	}  
 .main-content h2 {
 	color : 472500; 
@@ -38,7 +43,8 @@ section.main-content  {background: #cccccc;
 	font-size : 14pt; 
 	text-align:center;
 	padding:1em 0.1em 0.1em;
-	}
+	} 
+	*/
 .button-container {text-align: center;}
 section.button-content {
 	display:inline-block;
@@ -78,7 +84,25 @@ p {
 	letter-spacing:0.05em;
 	text-align:justify;
 	}
+
+#home {
+	padding-top: 50px; 
+	padding-bottom: 50px;
+	}
+
 #home p {text-align:center;}
+
+#video p {text-align:center;}
+
+#video {
+	padding-top: 50px; 
+	padding-bottom: 50px; 
+	/*background-color: rgb(255, 255, 255); */
+	background-image: url("img/heder_field_4.jpg");
+}
+
+
+
 #blog p {text-align:center;}
 
 img.preview {padding:10px 10px 0px;

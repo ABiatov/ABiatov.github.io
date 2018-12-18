@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no">
+<!--     <base href="https://ABiatov.github.io/index.html">  -->
+    <title>Biatov Anton (personal page)</title>
+
+
+    <link rel="stylesheet" type="text/css" href="css/symbol.css">
+    <link rel="stylesheet" href="css/style-header.css" />
+    <link rel="stylesheet" href="css/style-footer.css" />
+    <!--  Библеотека jquery -->
+    <script type="text/javascript" src="../js/jquery.1.7.1.min.js"></script>
+    <script type="text/javascript">
+    	$(document).ready(function(){
+    		// Фикмированная шапка при скролле
+    		$("#header").removeClass("default");
+    		$(window).scroll(function(){
+    			if ($(this).scrollTop() > 20) {
+    				$("#header").addClass("default").fadeIn('fast');
+    			} else {
+    				$("#header").removeClass("default").fadeIn('fast');
+    			};
+    		});
+    	});
+	</script>
+	<!-- Facebook Pixel Code -->
+<!--
+	<script>
+	!function(f,b,e,v,n,t,s)
+	{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+	n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+	if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+	n.queue=[];t=b.createElement(e);t.async=!0;
+	t.src=v;s=b.getElementsByTagName(e)[0];
+	s.parentNode.insertBefore(t,s)}(window,document,'script',
+	'https://connect.facebook.net/en_US/fbevents.js');
+	 fbq('init', '367734900438096'); 
+	fbq('track', 'PageView');
+	</script>
+	<noscript>
+	 <img height="1" width="1" 
+	src="https://www.facebook.com/tr?id=367734900438096&ev=PageView
+	&noscript=1"/>
+	</noscript>   
+	-->
+	<!--  End Facebook Pixel Code -->
+  </head>
+
+<!-- Начало работы над телом страницы -->
+<body>
+    <div id="wrapper">
+	<section class="header-content">	
+		<div id="header" class="clearfix">
+			<div class="container">
+				<div class="logo"><a href="#"><h1>Anton Biatov (personal page)</h1></a></div>
+				<ul class="nav">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#web-maps">Web-maps</a></li>
+					<li><a href="#blog">Blog</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	    <section class="main-content">
+		<div id="home" name="home">
+				<div style="text-align:center; width:90%; max-width:1080px;">
+				<h1>Найди все проблемные участки на своих полях за 1 день<br>
+				с помощью мультиспектральных космических снимков!</h1>
+				</div>
+		</div>
+		<div id="video" name="video" style="text-align: center;	padding-top: 50px; padding-bottom: 50px; background-color: #ccccff;">
+<!-- Работает автозапуск видео в хорошем разрешении, циклит плейлист по кругу это видео гонять -->
+<iframe allowfullscreen="" class="YOUTUBE-iframe-video" data-thumbnail-src="https://i.ytimg.com/vi/_Hfw5nLszUI/0.jpg" frameborder="0" height="291" src="https://www.youtube.com/embed/_Hfw5nLszUI?autoplay=1&vq=hd720&loop=1&playlist=_Hfw5nLszUI" width="518"></iframe>
+		</div>		
+	<div style="background-color: #b4e2ff;">
+		<div id="checklist" name="checklist" style="width:90%; max-width:1080px; margin-left:auto; margin-right:auto; padding-top: 50px; 
+	padding-bottom: 50px; font-family:Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;">
+
+<table>
+  <tbody>
+<tr>
+     <td>
+     <div style="background-color: rgba(255 , 255 , 255 , 0.5); border-radius: 0.4rem; border: 1px solid #808080; display: inline-block; height: 430; margin: 10px; padding: 10px; text-align: center; vertical-align: top; width: 90%;">
+<div>
+<h3>
+Получи чек-лист бесплатно</h3>
+<p style="text-align: left;" > Подпишись на рассылку и бесплатно получи чек-лист "Выявление аномалий развития растительности на поле по космическим снимкам"</p><br>
+<small><small>*&nbsp;Ваши данные не будут переданы <br>третьим лицам</small></small>
+</div>
+<script type="text/javascript">var submitted=false;</script>
+ <iframe id="hidden_iframe" name="hidden_iframe" onload="if(submitted)
+{window.location='https://gis-naturalist.blogspot.com/p/ndvi-online-school-oto1.html';}" style="display: none;"></iframe>
+ <br>
+<form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSex2bOHrgC-FOBuIWzgC6-r2AmB-UQUMYSzBzaAP0YweGZtRQ/formResponse" method="post" onsubmit="submitted=true;" style="margin: 0;" target="hidden_iframe">
+<div style="box-sizing: border-box; margin-bottom: 15px;">
+<input type="text" class="quantumWizTextinputPaperinputInput exportInput" autocomplete="off" tabindex="0" aria-label="Ваше имя" aria-describedby="i.desc.133704953 i.err.133704953" name="entry.1770844276" placeholder="Ваше имя" value="" required="" dir="auto" data-initial-dir="auto" data-initial-value="" style="width:90%;">
+  </div>
+<div style="box-sizing: border-box; margin-bottom: 15px; ">
+<input type="email" class="quantumWizTextinputPaperinputInput exportInput" autocomplete="off" tabindex="0" aria-label="Ваш e-mail" aria-describedby="i.desc.1766502518 i.err.1766502518" name="entry.734936758" placeholder="Ваш e-mail" value="" required="" dir="auto" data-initial-dir="auto" data-initial-value="" style="width:90%;">
+  </div>
+<input name="fvv" type="hidden" value="1">
+        <input name="draftResponse" type="hidden" value="[null,null,&quot;-9009005553576227000&quot;]
+">
+        <input name="pageHistory" type="hidden" value="0">
+        <input name="fbzx" type="hidden" value="-9009005553576227000">
+  <br>
+<div>
+<input class="btn btn-warning jfk-button jfk-button-action " id="ss-submit" name="submit" type="submit" value="ПОЛУЧИТЬ ЧЕК-ЛИСТ" style="width:70%; height:35px; ">
+  </div>
+</form>
+</div>
+
+</td>
+    <td>
+<img src="img/preview-Chek-List-ndvi.jpg" width="250" height="331" alt="">
+</tr>
+</tbody></table>
+
+		</div>
+	</div>
+		
+<div style="background-color: #ccccff;">
+	<div align="center" name="training_content" id="training_content" style="width:90%; max-width:1080px; margin-left:auto; margin-right:auto; padding-top: 50px; padding-bottom: 50px; font-family:Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif; ">
+		<h3 style="text-align: left;">Содержание курса:</h3>
+
+		<div align="center"  name="lessons" id="lessons">
+			<div style="padding-top: 20px;">			
+				<h4 >Вводный модуль</h4><br>
+				<div style="display:inline-block; width:250px; background-color: rgba(255, 255, 255, 0.5); border: 1px solid #808080; margin:5px; border-radius: 0.4rem; vertical-align: top; text-align: center; padding:10px;">
+					<img src="img/urok_1_preview.jpg" width="230" height="142" alt=""><br>
+					<h5>Занятие 1</h5>
+					<div style="text-align: left;">Установка необходимого программного обеспечения и дополнительных модулей к нему.
+				Знакомство с интерфейсом программ.</div>
+				</div>
+				<div style="display:inline-block; width:250px; background-color: rgba(255, 255, 255, 0.5); border: 1px solid #808080; margin:5px; border-radius: 0.4rem; vertical-align: top; text-align: center; padding:10px;">
+					<img src="img/urok_2_preview.jpg" width="230" height="142" alt=""><br>
+					<h5>Занятие 2</h5>
+					<div style="text-align: left;">Знакомство с космическими снимками Sentinel-2.  Работа с On-line сервисами для получения космических снимков.</div>
+				</div>
+				<div style="display:inline-block; width:250px; background-color: rgba(255, 255, 255, 0.5); border: 1px solid #808080; margin:5px; border-radius: 0.4rem; vertical-align: top; text-align: center; padding:10px;">
+					<img src="img/urok_3_preview.jpg" width="230" height="142" alt=""><br>
+					<h5>Занятие 3</h5>
+					<div style="text-align: left;">Основы работы с космическими снимками.    Знакомство с понятием "растр".    Создание многоканального композита, настройка отображения.</div>
+				</div>
+				<div style="display:inline-block; width:250px; background-color: rgba(255, 255, 255, 0.5); border: 1px solid #808080; margin:5px; border-radius: 0.4rem; vertical-align: top; text-align: center; padding:10px;">
+					<img src="img/urok_4_preview.png" width="230" height="142" alt=""><br>
+					<h5>Занятие 4</h5>
+					<div style="text-align: left;">Знакомство с понятием "вектор".   Основы работы с векторными данными. Создание контура поля или использование уже имеющегося контура.</div>
+				</div>
+			</div>
+			<div style="padding-top: 20px;">			
+				<h4 >Аналитический модуль</h4><br>
+				<div style="display:inline-block; width:250px; background-color: rgba(255, 255, 255, 0.5); border: 1px solid #808080; margin:5px; border-radius: 0.4rem; vertical-align: top; text-align: center; padding:10px;">
+					<img src="img/urok_5_preview.jpg" width="230" height="142" alt=""><br>
+					<h5>Занятие 5</h5>
+					<div style="text-align: left;">Обрезка космического снимка по контуру поля.    Расчет вегетационного индекса NDVI.    Настройка отображения NDVI.</div>
+				</div>
+				<div style="display:inline-block; width:250px; background-color: rgba(255, 255, 255, 0.5); border: 1px solid #808080; margin:5px; border-radius: 0.4rem; vertical-align: top; text-align: center; padding:10px;">
+					<img src="img/urok_6_preview.jpg" width="230" height="142" alt=""><br>
+					<h5>Занятие 6</h5>
+					<div style="text-align: left;">Инструменты зональной статистики. Расчет средних значений и отклонений NDVI для каждого поля, настройка отображения.</div>
+				</div>
+				<div style="display:inline-block; width:250px; background-color: rgba(255, 255, 255, 0.5); border: 1px solid #808080; margin:5px; border-radius: 0.4rem; vertical-align: top; text-align: center; padding:10px;">
+					<img src="img/urok_7_preview.jpg" width="230" height="142" alt=""><br>
+					<h5>Занятие 7</h5>
+					<div style="text-align: left;">Расчет площадей аномалий. Создание растровых классов, векторизация растров и расчет площадей.</div>
+				</div>
+			</div>
+		</div>		
+	</div>
+</div>
+		
+		
+		<div id="projects" mame="projects">
+			<h2>Projects</h2>
+			<h3>Conservation and education projects:</h3>
+			<p>I am one of the organizers of a series of workshops for the environmentalists and biologists <a target="_blank" title="Web-site - GIS and Protected areas (pzf.gis.kh.ua)" href="http://pzf.gis.kh.ua/">"GIS for the Protected areas"</a></p>
+
+		</div>
+		<div id="web-maps" mame="web-maps">	
+				<h2>Web-maps<h2/>
+				<div class="button-container">
+					<section class="button-content" title="Main map of WEB-portal amurinfocenter.org   #leaflet">
+						<a target="_blank" href="https://abiatov.github.io/AmurInfoCenter.org_mainmap_ru/index.html"><img class="preview" src="../images/btn_amurifocenter_mainmap.png" alt="Main map of WEB-portal amurinfocenter.org" ><br>
+			<h3>Main map of WEB-portal amurinfocenter.org</h3></a>
+					</section>
+					<section class="button-content" title="Map of Protected Areas on the territory of the Amur-Heilong Ecoregion   #arcgis.com">
+						<a target="_blank" href="http://arcg.is/2aRpg9L"><img class="preview" src="../images/btn_Protected_Areas_AHEC.png" alt="Map of Protected Areas of the Amur-Heilong Ecoregion" ><br>
+			<h3>Map of Protected Areas of the Amur-Heilong Ecoregion</h3></a>
+					</section>
+					<section class="button-content" title="Correlation of types of biomes on the territory of the Amur-Heilong ecoregion   #arcgis.com">
+						<a target="_blank" href="http://arcg.is/2aKJJeJ"><img class="preview" src="../images/btn_types_of_biomes_AHEC.png" alt="Correlation of types of biomes on the territory of the Amur-Heilong ecoregion" ><br>
+			<h3>Correlation of types of biomes on the territory ...</h3></a>
+					</section>
+					<section class="button-content" title="Web-map of Slobozhanskiy national nature park   #leaflet">
+						<a target="_blank" href="http://abiatov.github.io/NPP_Slobozhanskiy_map/"><img class="preview" src="../images/btn_npp_slobozhanskiy.png" alt="Map of Slobozhanskiy national park" ><br>
+			<h3>Web-map of Slobozhanskiy national nature park</h3></a>
+					</section>
+					<section class="button-content" title="3D-models of the sea-bottom near the Ukrainian Antarctic Station «Academic Vernadsky»   #three.js">
+						<a target="_blank" href="http://abiatov.github.io/Antarctic_qgis2treejs/"><img class="preview" src="../images/btn_Vernadsky_sea_bottom.png" alt="3D-models of the sea-bottom near the Ukrainian Antarctic Station «Academic Vernadsky»" ><br>
+			<h3>The sea-bottom near the Ukrainian Antarctic Station...</h3></a>
+					</section>
+					<section class="button-content" title="3D visualisation of result of beavers accounting in Slobozhanskiy national park 2016 year   #three.js">
+						<a target="_blank" href="https://abiatov.github.io/Beaver_2016_Qgis2threejs/3d-model.html"><img class="preview" src="../images/btn_3-d_beavers_accounting_2016.png" alt="3D visualisation of result of beavers accounting in Slobozhanskiy national park 2016 year" ><br>
+			<h3>3D visualisation of result of beavers accounting...</h3></a>
+					</section>
+				</div>
+			</div>
+		<div id="blog" mame="blog">
+			<h2>My blog</h2>
+			 
+				<section class="blog-preview" title="Blog GIS-naturalist">		
+	<a target="_blank" href="https://gis-naturalist.blogspot.com/"><img class="imgblogpreview" src="../images/my-blog.png" alt="blog GIS-naturalist" ></a><br>
+				</section>
+			
+		</div><br>
+		<div id="contact" mame="contact">
+			<h2>My contact</h2>
+<address>
+				  <p>Facebook: <a target="_blank" href="https://www.facebook.com/biatovanton">Anton Biatov</a></p>
+				  <p>E-mail: <a href="mailto:anton.biatov@gmail.com?subject=Вопрос c персональной страницы: ">anton.biatov@gmail.com</a></p>
+				  <p>GitHub: <a target="_blank" href="https://github.com/ABiatov">ABiatov</a></p>
+</address>
+<br><br><br><br>
+		</div>
+	    </section>
+   </div>
+<footer>
+	<p><small>© Anton Biatov, 2016</small></p>
+</footer>
+</body>
+</html>

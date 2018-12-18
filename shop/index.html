@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no">
+<!--     <base href="https://ABiatov.github.io/index.html">  -->
+    <title>Biatov Anton (personal page)</title>
+
+
+    <link rel="stylesheet" type="text/css" href="../css/symbol.css">
+    <link rel="stylesheet" href="../css/style-header.css" />
+    <link rel="stylesheet" href="../css/style-footer.css" />
+    <!--  Библеотека jquery -->
+    <script type="text/javascript" src="../js/jquery.1.7.1.min.js"></script>
+    <script type="text/javascript">
+    	$(document).ready(function(){
+    		// Фикмированная шапка при скролле
+    		$("#header").removeClass("default");
+    		$(window).scroll(function(){
+    			if ($(this).scrollTop() > 20) {
+    				$("#header").addClass("default").fadeIn('fast');
+    			} else {
+    				$("#header").removeClass("default").fadeIn('fast');
+    			};
+    		});
+    	});
+	</script>
+	<!-- Facebook Pixel Code -->
+	<script>
+	!function(f,b,e,v,n,t,s)
+	{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+	n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+	if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+	n.queue=[];t=b.createElement(e);t.async=!0;
+	t.src=v;s=b.getElementsByTagName(e)[0];
+	s.parentNode.insertBefore(t,s)}(window,document,'script',
+	'https://connect.facebook.net/en_US/fbevents.js');
+	 fbq('init', '367734900438096'); 
+	fbq('track', 'PageView');
+	</script>
+	<noscript>
+	 <img height="1" width="1" 
+	src="https://www.facebook.com/tr?id=367734900438096&ev=PageView
+	&noscript=1"/>
+	</noscript>
+	<!-- End Facebook Pixel Code -->
+  </head>
+
+<!-- Начало работы над телом страницы -->
+<body>
+    <div id="wrapper">
+	<section class="header-content">	
+		<div id="header" class="clearfix">
+			<div class="container">
+				<div class="logo"><a href="#"><h1>Anton Biatov (personal page)</h1></a></div>
+				<ul class="nav">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#web-maps">Web-maps</a></li>
+					<li><a href="#blog">Blog</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	    <section class="main-content">
+		<div id="home" name="home">
+				<p><b>Hi! </b></p>
+				<p>I am Anton Biatov - biologist, naturalist and GIS-specialist from Ukraine. </p>
+				<p>I like to help biologists and environmentalists to solve their GIS tasks.</p>
+		</div>
+		<div id="projects" mame="projects">
+			<h2>Projects</h2>
+			<h3>Conservation and education projects:</h3>
+			<p>I am one of the organizers of a series of workshops for the environmentalists and biologists <a target="_blank" title="Web-site - GIS and Protected areas (pzf.gis.kh.ua)" href="http://pzf.gis.kh.ua/">"GIS for the Protected areas"</a></p>
+
+		</div>
+		<div id="web-maps" mame="web-maps">	
+				<h2>Web-maps<h2/>
+				<div class="button-container">
+					<section class="button-content" title="Main map of WEB-portal amurinfocenter.org   #leaflet">
+						<a target="_blank" href="https://abiatov.github.io/AmurInfoCenter.org_mainmap_ru/index.html"><img class="preview" src="../images/btn_amurifocenter_mainmap.png" alt="Main map of WEB-portal amurinfocenter.org" ><br>
+			<h3>Main map of WEB-portal amurinfocenter.org</h3></a>
+					</section>
+					<section class="button-content" title="Map of Protected Areas on the territory of the Amur-Heilong Ecoregion   #arcgis.com">
+						<a target="_blank" href="http://arcg.is/2aRpg9L"><img class="preview" src="../images/btn_Protected_Areas_AHEC.png" alt="Map of Protected Areas of the Amur-Heilong Ecoregion" ><br>
+			<h3>Map of Protected Areas of the Amur-Heilong Ecoregion</h3></a>
+					</section>
+					<section class="button-content" title="Correlation of types of biomes on the territory of the Amur-Heilong ecoregion   #arcgis.com">
+						<a target="_blank" href="http://arcg.is/2aKJJeJ"><img class="preview" src="../images/btn_types_of_biomes_AHEC.png" alt="Correlation of types of biomes on the territory of the Amur-Heilong ecoregion" ><br>
+			<h3>Correlation of types of biomes on the territory ...</h3></a>
+					</section>
+					<section class="button-content" title="Web-map of Slobozhanskiy national nature park   #leaflet">
+						<a target="_blank" href="http://abiatov.github.io/NPP_Slobozhanskiy_map/"><img class="preview" src="../images/btn_npp_slobozhanskiy.png" alt="Map of Slobozhanskiy national park" ><br>
+			<h3>Web-map of Slobozhanskiy national nature park</h3></a>
+					</section>
+					<section class="button-content" title="3D-models of the sea-bottom near the Ukrainian Antarctic Station «Academic Vernadsky»   #three.js">
+						<a target="_blank" href="http://abiatov.github.io/Antarctic_qgis2treejs/"><img class="preview" src="../images/btn_Vernadsky_sea_bottom.png" alt="3D-models of the sea-bottom near the Ukrainian Antarctic Station «Academic Vernadsky»" ><br>
+			<h3>The sea-bottom near the Ukrainian Antarctic Station...</h3></a>
+					</section>
+					<section class="button-content" title="3D visualisation of result of beavers accounting in Slobozhanskiy national park 2016 year   #three.js">
+						<a target="_blank" href="https://abiatov.github.io/Beaver_2016_Qgis2threejs/3d-model.html"><img class="preview" src="../images/btn_3-d_beavers_accounting_2016.png" alt="3D visualisation of result of beavers accounting in Slobozhanskiy national park 2016 year" ><br>
+			<h3>3D visualisation of result of beavers accounting...</h3></a>
+					</section>
+				</div>
+			</div>
+		<div id="blog" mame="blog">
+			<h2>My blog</h2>
+			 
+				<section class="blog-preview" title="Blog GIS-naturalist">		
+	<a target="_blank" href="https://gis-naturalist.blogspot.com/"><img class="imgblogpreview" src="../images/my-blog.png" alt="blog GIS-naturalist" ></a><br>
+				</section>
+			
+		</div><br>
+		<div id="contact" mame="contact">
+			<h2>My contact</h2>
+<address>
+				  <p>Facebook: <a target="_blank" href="https://www.facebook.com/biatovanton">Anton Biatov</a></p>
+				  <p>E-mail: <a href="mailto:anton.biatov@gmail.com?subject=Вопрос c персональной страницы: ">anton.biatov@gmail.com</a></p>
+				  <p>GitHub: <a target="_blank" href="https://github.com/ABiatov">ABiatov</a></p>
+</address>
+<br><br><br><br>
+		</div>
+	    </section>
+   </div>
+<footer>
+	<p><small>© Anton Biatov, 2016</small></p>
+</footer>
+</body>
+</html>

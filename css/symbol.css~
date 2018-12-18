@@ -22,8 +22,10 @@ section.main-content  {background: #cccccc;
 	}
 .main-content h1 {
 	color :  #050027;
+   font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif; 
 	font-size : 25pt;
 	text-align:center;
+	padding:1em 0.1em 0.1em;
 	}  
 .main-content h2 {
 	color : 472500; 
