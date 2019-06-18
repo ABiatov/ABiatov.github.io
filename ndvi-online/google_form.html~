@@ -23,14 +23,27 @@
 #order-submit {
   background-color: #e64a59;
   text-decoration: none;
+  border-radius: 0.4rem;
+  border: 1px solid #808080;
+  color: white;
+  font-weight: bolder;
+  height: 35px;
+  width: 70%;
   }  
 #order-submit:hover {
   background-color: #e65f59;
   text-decoration: none;
+  border-radius: 0.4rem;
+  border: 1px solid #808080;
+  color: white;
+  font-weight: bolder;
+  height: 35px;
+  width: 70%;
   } 
 </style>
+
 <center>
-<input class="btn btn-warning jfk-button jfk-button-action " id="order-submit" name="submit" style="border-radius: 0.4rem; border: 1px solid #808080; color: white; font-weight: bolder; height: 35px; width: 70%;" type="submit" value="ЗАПИСАТЬСЯ НА КУРС" /></center>
+<input class="btn btn-warning jfk-button jfk-button-action " id="order-submit" name="submit"  type="submit" value="ЗАПИСАТЬСЯ НА КУРС" /></center>
 </div>
 <center>
 <small><small>*&nbsp;Ваши данные не будут переданы третьим лицам</small></small></center>

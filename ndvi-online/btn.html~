@@ -1,17 +1,18 @@
 <style>
 #btn-online-ndvi {
-  background-color: #e64a59;
+  background-color: #409bde;
   text-decoration: none;
   }  
 #btn-online-ndvi:hover {
-  background-color: #e65f59;
+  background-color: #69b0cf;
   text-decoration: none;
   } 
 </style>
+<br />
 <center>
-<a href="https://gis-naturalist.blogspot.com/p/ndvi-online-school-landing1.html"><div id="btn-online-ndvi" style="border-radius: 0.4rem; border: 1px solid #808080; color: white; font-variant: small-caps; letter-spacing: ; height: auto; padding: 10px; width: 80%;">
-Онлайн курс<br>
-создание карты вегетации поля<br>по спутниковым снимкам
+<a href="https://gis-naturalist.blogspot.com/p/ndvi-online-school-landing1.html"><div id="btn-online-ndvi" style="border-radius: 0.6rem; border: 1px solid #808080; color: #ffffff; font-variant: small-caps; letter-spacing: 0.05rem;  height: auto; padding: 10px; width: 70%;">
+<b>онлайн курс<br>
+СОЗДАНИЕ КАРТЫ ВЕГЕТАЦИИ ПОЛЯ<br>ПО СПУТНИКОВЫМ СНИМКАМ</b>
 </div>
 </a></center>
 <br>
