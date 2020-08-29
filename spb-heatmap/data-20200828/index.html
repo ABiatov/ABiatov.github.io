@@ -185,7 +185,7 @@
         bounds_group.addLayer(layer_points_5);
         map.addLayer(layer_points_5);
         var baseMaps = {};
-        L.control.layers(baseMaps,{'<img src="legend/points_5.png" /> points': layer_points_5,"Heatmap red": layer_Heatmapred_4,"Heatmap Magma": layer_HeatmapMagma_3,"OSM Standard": layer_OSMStandard_2,"OpenStreetMap monochrome": layer_OpenStreetMapmonochrome_1,"Dark Matter": layer_DarkMatter_0,},{collapsed:false}).addTo(map);
+        L.control.layers(baseMaps,{'<img src="legend/points_5.png" /> points': layer_points_5,"Heatmap red": layer_Heatmapred_4,"Heatmap Magma": layer_HeatmapMagma_3,"OSM Standard": layer_OSMStandard_2,"OpenStreetMap monochrome": layer_OpenStreetMapmonochrome_1,"Dark Matter": layer_DarkMatter_0,},{collapsed:true}).addTo(map);
         setBounds();
         L.ImageOverlay.include({
             getBounds: function () {
